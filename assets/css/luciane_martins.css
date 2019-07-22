@@ -1,0 +1,21 @@
+.work__empresa--data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work__descricao {
+  text-align: justify;
+}
+
+.work__empresa--h4 {
+  padding: 0;
+  margin: 0;
+  color: #3a144d;
+}
+#footerzinho {
+  font-size: 8px;
+}
+
+.nomeautora {
+  color: #ffffff;
+}
