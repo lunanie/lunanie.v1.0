@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <title>Nayara Marra</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="navbar__links">
+      <a href="#">Meus Pedidos</a>
+      <a href="#">Entrar / Cadastre-se</a>
+    </div>
+  </nav>
+  <header class="header">
+    <div class="header__title">
+      <div class="header__busca">
+        <input type="search" name="search" id="search" placeholder="Digite o que você procura" />
+        <img src="img/busca.png" alt="" />
+      </div>
+      <img src="img/nayara-marra.png" alt="Nayara Marra" title="Nayara Marra" />
+      <div class="listas">
+        <div class="listas__item">
+          <img src="img/curtir.png" alt="" />
+          <a href="#">Lista de Desejos</a>
+        </div>
+        <div class="listas__item">
+          <img src="img/sacola.png" alt="" />
+          <a href="#">Nenhum item</a>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar__produtos">
+      <ul>
+        <li><a href="#">Novidades</a></li>
+        <li><a href="#">Anéis</a></li>
+        <li><a href="#">Brincos</a></li>
+        <li><a href="#">Colares</a></li>
+        <li><a href="#">Conjuntos</a></li>
+        <li><a id="navbar__sales" href="#">Sales</a></li>
+      </ul>
+    </nav>
+  </header>
+  <hr />
+  <section class="banner">
+    <div>
+      <div class="banner__carrossel">
+        <span class="banner__item proximo"><i class="fas fa-chevron-right"></i></span>
+        <span class="banner__item anterior"><i class="fas fa-chevron-left"></i></span>
+        <div id="carrossel">
+          <a href="#" class="banner__item"><img class="banner__carrossel--img" src="./img/banner1.png"
+              alt="Legenda da imagem" /></a>
+          <a href="#" class="banner__item"><img class="banner__carrossel--img" src="./img/banner2.png"
+              alt="Legenda da imagem" /></a>
+          <a href="#" class="banner__item"><img class="banner__carrossel--img" src="./img/banner3.jpg"
+              alt="Legenda da imagem" /></a>
+          <a href="#" class="banner__item"><img class="banner__carrossel--img" src="./img/banner4.jpg"
+              alt="Legenda da imagem" /></a>
+          <a href="#" class="banner__item"><img class="banner__carrossel--img" src="./img/banner5.jpg"
+              alt="Legenda da imagem" /></a>
+          <a href="#" class="banner__item"><img class="banner__carrossel--img" src="./img/banner6.jpg"
+              alt="Legenda da imagem" /></a>
+        </div>
+        <div id="banner__legenda">
+          <p class="banner__legenda--ano">New for 2020</p>
+          <p class="banner__legenda--titulo">Collection</p>
+          <p><a class="banner__legenda--compre" href="#">Compre Agora</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="beneficios">
+    <ul>
+      <li>
+        <a href="#"><img src="img/caminhao.png" alt="Ícone com caminhão" title="Ícone com caminhão" />
+          Frete grátis acima de <b>R$200,00</b></a>
+      </li>
+      <li>
+        <a href="#"><img src="img/cartao-banco.png" alt="Ícone com cartões de crédito"
+            title="Ícone com cartões de crédito" />
+          Até <b>10x</b> sem juros</a>
+      </li>
+      <li>
+        <a href="#"><img src="img/porcentagem-desconto.png" alt="Ícone com o símbolo de porcentagem"
+            title="Ícone com o símbolo de porcentagem" /><b> 10% off</b> à vista no cartão ou boleto</a>
+      </li>
+      <li>
+        <a href="#"><img src="img/cadeado-seguranca.png" alt="Cadeado de segurança" title="Cadeado de segurança" /><b>
+            Segurança</b> em todas etapas da compra</a>
+      </li>
+    </ul>
+  </section>
+  <section class="conjuntos">
+    <div>
+      <img class="conjuntos__img" src="./img/produto01.png" alt="" />
+    </div>
+    <div class="espaco"></div>
+    <div>
+      <img class="conjuntos__img" src="./img/produto02.png" alt="" />
+    </div>
+  </section>
+
+  <section class="tipologias">
+    <div>
+      <img class="tipologias__img" src="./img/produto03.png" alt="" />
+    </div>
+    <div class="espaco"></div>
+    <div class="tipologias__opcoes">
+      <div class="tipologias__item">
+        <div><img src="./img/aneis.png" alt="Anéis" /></div>
+        <div>
+          <p class="tipologias__titulos">Anéis</p>
+          <p class="tipologias__botoes">Compre Agora</p>
+        </div>
+      </div>
+      <div class="espaco"></div>
+      <div class="tipologias__item">
+        <div><img src="./img/brincos.png" alt="Brincos" /></div>
+        <div>
+          <p class="tipologias__titulos">Brincos</p>
+          <p class="tipologias__botoes">Compre Agora</p>
+        </div>
+      </div>
+      <div class="espaco"></div>
+      <div class="tipologias__item">
+        <div><img src="./img/colares.png" alt="Colares" /></div>
+        <div>
+          <p class="tipologias__titulos">Colares</p>
+          <p class="tipologias__botoes">Compre Agora</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="lancamentos">
+    <div class="lancamentos__titulo">
+      <div>
+        <img class="barra" src="./img/barra-esquerda.png" alt="">
+      </div>
+      <div>
+        <p>Lançamentos</p>
+      </div>
+      <div>
+        <img class="barra" src="./img/barra-direira.png" alt="">
+      </div>
+    </div>
+
+    <div class="lancamentos__cartoes">
+      <div class="lancamentos__cartoes--esquerda">
+        <i class="fas fa-chevron-left "></i>
+      </div>
+      <div class="lancamentos__cada--cartao">
+        <div>
+          <img src="./img/lanc01.png" alt="Anel Pink" />
+        </div>
+        <div>
+          <p class="lancamentos__cada--titulo">Anel de prata florzinha de navetes e gota rubi</p>
+          <p><s>R$ 300,00</s> <b>R$ 259,00</b></p>
+          <p>5x de R$ 51,80 sem juros</p>
+          <p><a href="#">Comprar</a></p>
+        </div>
+      </div>
+      <div class="espaco"></div>
+      <div class="lancamentos__cada--cartao">
+        <div>
+          <img src="./img/lanc02.png" alt="Anel Pink" />
+        </div>
+        <div>
+          <p class="lancamentos__cada--titulo">Anel de prata florzinha de navetes e gota quartzo rosa</p>
+          <p><s>R$ 300,00</s> <b>R$ 259,00</b></p>
+          <p>5x de R$ 51,80 sem juros</p>
+          <p><a href="#">Comprar</a></p>
+        </div>
+      </div>
+      <div class="espaco"></div>
+      <div class="lancamentos__cada--cartao">
+        <div>
+          <img src="./img/lanc03.png" alt="Anel Pink" />
+        </div>
+        <div>
+          <p class="lancamentos__cada--titulo">Anel de prata florzinha de navetes e gota turmalina leitosa</p>
+          <p><s>R$ 300,00</s> <b>R$ 259,00</b></p>
+          <p>5x de R$ 51,80 sem juros</p>
+          <p>
+            <a href="#">Comprar</a>
+          </p>
+        </div>
+      </div>
+      <div class="lancamentos__cartoes--direita">
+        <i class="fas fa-chevron-right"></i>
+      </div>
+    </div>
+  </section>
+
+  <section class="mosaico">
+    <div class="mosaico__div">
+      <div class="mosaico__principal"><img class="mosaico__img" src="./img/produto04.png" alt=""></div>
+      <div class="espaco"></div>
+      <div>
+        <div class="mosaico__secundarias"><img class="mosaico__img" src="./img/produto05.png" alt=""></div>
+        <div class="espaco"></div>
+        <div class="mosaico__secundarias"><img class="mosaico__img" src="./img/produto06.png" alt=""></div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="hrcinza">
+
+  <section class="instagram">
+    <div class="instagram__titulo">
+      <img src="./img/instagram.png" alt="">
+    </div>
+    <div class="instagram__carrossel">
+      <div class="instagram__carrossel--item"><i class="fas fa-chevron-left"></i></div>
+      <div class="instagram__carrossel--item"><img src="./img/insta01.png" alt=""></div>
+      <div class="instagram__carrossel--item"><img src="./img/insta02.png" alt=""></div>
+      <div class="instagram__carrossel--item"><img src="./img/insta03.png" alt=""></div>
+      <div class="instagram__carrossel--item"><img src="./img/insta04.png" alt=""></div>
+      <div class="instagram__carrossel--item"><img src="./img/insta05.png" alt=""></div>
+      <div class="instagram__carrossel--item"><i class="fas fa-chevron-right"></i></div>
+    </div>
+  </section>
+
+  <hr class="hrcinza">
+
+  <section class="cadastro">
+    <div class="cadastro__email">
+      <div class="cadastro__input">
+        <i class="far fa-envelope"></i>
+        <p class="cadastro__texto">Cadastre-se e receba ofertas exclusivas</p>
+      </div>
+      <div class="cadastro__input">
+        <input type="email" name="email" id="email">
+        <button class="cadastro__botao" type="submit"> <i class="fas fa-chevron-right"></i> </button></div>
+    </div>
+    <div class="cadastro__redessociais">
+      <div><i class="fab fa-facebook-f"></i></div>
+      <div><i class="fab fa-google-plus-g"></i></div>
+      <div><i class="fab fa-twitter"></i></div>
+      <div><i class="fab fa-instagram"></i></div>
+      <div><i class="fab fa-pinterest-p"></i></div>
+      <div><i class="fab fa-youtube"></i></div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="footer__mapa--bg">
+      <div class="footer__mapa">
+        <div class="footer__mapa--central">
+          <p class="uppercase">Central de Ajuda</p>
+          <ul>
+            <li><a href="#"> Central de Atendimento</a></li>
+            <li><a href="#"> Envio e Entrega</a></li>
+            <li><a href="#"> Navegando e Comprando</a></li>
+            <li><a href="#"> Trocas e Devoluções</a></li>
+            <li><a href="#"> Fale Conosco</a></li>
+            <li><a href="#"> Mapa do Site</a></li>
+          </ul>
+        </div>
+        <div class="footer__mapa--institucionais">
+          <p class="uppercase">Institucionais</p>
+          <ul>
+            <li><a href="#"> Quem Somos</a></li>
+            <li><a href="#"> Nossas Lojas</a></li>
+            <li><a href="#"> Política de Privacidade</a></li>
+            <li><a href="#"> Afiliados</a></li>
+          </ul>
+        </div>
+        <div class="footer__mapa--atendimento">
+          <p class="uppercase">Atendimento</p>
+          <div class="footer__mapa--atendimentoflex">
+            <div><img class="footer__ico--tele" src="./img/ico-tele.png"> </div>
+            <div>
+              <p class="footer__mapa--telefone"><b>TELEVENDAS 0800 - 0000 | SAC 0800 - 0000</b></p>
+              <p class="footer__mapa--texto"> Horário de Atendimento</p>
+              <p class="footer__mapa--texto"> De segunda a sexta das 08h às 22h</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer__mapa--certificados">
+          <p class="uppercase">Certificados</p>
+          <div><img src="./img/protegido.png"></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__pagamento--bg">
+      <div class="footer__pagamento">
+        <div>
+          <p class="uppercase">Formas de Pagamento</p>
+        </div>
+        <div><img class="footer_pagamento--cartao" src="./img/cc_mastercard.png" alt="Pague com cartão MasterCard">
+        </div>
+        <div><img class="footer_pagamento--cartao" src="./img/cc_visa.png" alt="Pague com cartão Visa"></div>
+        <div><img class="footer_pagamento--cartao" src="./img/cc_americanexpress.png"
+            alt="Pague com cartão American Express"></div>
+        <div><img class="footer_pagamento--cartao" src="./img/cc_diners.png" alt="Pague com cartão Diners"></div>
+        <div><img class="footer_pagamento--cartao" src="./img/cc_elo.png" alt="Pague com cartão Elo"></div>
+        <div><img class="footer_pagamento--cartao" src="./img/cc_boleto.png" alt="Pague com boleto bancário"></div>
+      </div>
+    </div>
+    <div class="footer__endereco">
+      <div>
+        <p>Lorem Ipsum Dolor Sit - CNPJ 60.306.289/0007-99 - Av. Lorem Ipsum, 3103 – lj 74/74 a / Piso Campo Belo - CEP
+          04029-902 - Indianópolis - São Paulo - SP
+        </p>
+        <p>Nayara Marra. © 2018 - Todos os direitos reservados</p>
+      </div>
+      <div><img src="./img/rakuten.png"> </div>
+    </div>
+  </section>
+  <script src="./assets/script.js"></script>
+</body>
+
+</html>
